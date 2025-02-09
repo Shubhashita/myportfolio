@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: #1f242d;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 35px;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.navbar ul li:hover a,
+.navbar ul li.active a{
+    color: blue;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: white;
+}
+
+.home-info h1{
+    font-size: 50px;
+}
+
+.home-info h2{
+    padding: 3px;
+    font-size: 32px;
+    margin-top: -10px;
+}
+
+.home-info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+
+.home-info .sci{
+    display: flex;
+    align-items: center;
+}
+
+.home-info .sci a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    font-size: 20px;
+    color: blue;
+    margin: 0 8px;
+}
+
+.home-img .img-box {
+    width: 22vw;
+    height: 22vw;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.home-img .img-box .img-item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #b5bcc0;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.home-img .img-box .img.item img{
+    position: absolute;
+    display: block;
+    width: 85%;
+    object-fit: cover;
+    top: 30px;
+    justify-content: center;
+}
+
+.about{
+    display: grid;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.about-box{
+    width: 1000px;
+    height: 300px;
+    border: 15px;
+    margin: 0 ;
+    background: white;
+    padding: 2px;
+    transition: .5s;
+}
+
+.about-text{
+    position: relative;
+    width: 995px;
+    height: 295px;
+    background: #1f242d;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.about-text h2{
+    display: absolute;
+    padding: 55px;
+}
+ .about-text h2:hover{
+    color: blue;
+ }
+
+ .about-text  p{
+    align-items: center;
+    vertical-align: bottom;
+    padding: 25px;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-right: 55px;
+ }
+
+
